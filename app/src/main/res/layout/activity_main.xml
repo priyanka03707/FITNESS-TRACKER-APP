@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@android:color/white">
+
+    <!-- Step Count Display -->
+    <TextView
+        android:id="@+id/step_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Steps: 0"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <!-- Distance Covered -->
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance: 0 m"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#333333"/>
+
+    <!-- Calories Burned -->
+    <TextView
+        android:id="@+id/calories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calories: 0 kcal"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF5733"/>
+
+</LinearLayout>
