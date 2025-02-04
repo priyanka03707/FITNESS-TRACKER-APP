@@ -20,3 +20,5 @@ With real-time updates, users can see their step count increase instantly, keepi
 
 # OUTPUT OF THE TASK
 
+![Image](https://github.com/user-attachments/assets/f2011890-aa99-40bc-85cf-43336a5511f7)
+
